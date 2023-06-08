@@ -16,7 +16,7 @@ During the development process, a warning related to **PropTypes validation** wa
 ### Android Configuration
 
 For **Android configuration**, permissions required for camera usage were added to the **android/app/src/main/AndroidManifest.xml** file. The **android/app/build.gradle** file was also updated. A **missingDimensionStrategy** line was added under the defaultConfig block within the android section, to ensure correct operation of the react-native-camera package:
-** missingDimensionStrategy 'react-native-camera', 'general' **
+**missingDimensionStrategy 'react-native-camera', 'general'**
 
 ### TypeScript Configuration
 
