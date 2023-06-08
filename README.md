@@ -3,12 +3,12 @@ React Native Camera Sample Project
 
 This repository hosts a **minimal React Native application** which utilizes the **react-native-camera** package to provide camera functionality. The project is built with **TypeScript**, and TypeScript definitions for react-native-camera have been installed.
 
-## Overview
+Overview
 --------
 
 The heart of the application is the **CameraView** component, located within the **src** folder. This component interfaces with the **RNCamera** component from the react-native-camera package, and presents a simple user interface. A button on this interface triggers the photo capture functionality. This component is integrated into the main application via the **App.tsx** file.
 
-## Development Notes
+Development Notes
 -----------------
 
 During the development process, a warning related to **PropTypes validation** was encountered. This warning, originating from the react-native-camera package, can be safely ignored.
@@ -24,12 +24,12 @@ The development process encountered an issue where the screen remained blank. Th
 
 The **PropsView error** is another aspect of the project to be aware of. This error doesn't affect the project's functioning and can be safely ignored. If preferred, it can be suppressed by modifying the TypeScript configuration.
 
-## Testing
+Testing
 -------
 
 To evaluate the application, the **./gradlew build** command was utilized, and the resulting **app-release.apk** file was installed on a mobile device. The app runs normally on the emulator as well. **npx react-native run-android** is sufficient for that.
 
-## Installation
+Installation
 ------------
 
 Please note that the provided project does not include the necessary packages. Thus, running the **npm install** command is essential to fetch all dependencies before initiating the application.
