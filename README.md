@@ -27,7 +27,7 @@ The **PropsView error** is another aspect of the project to be aware of. This er
 Testing
 -------
 
-To evaluate the application, the **./gradlew build** command was utilized, and the resulting **app-release.apk** file was installed on a mobile device. The app runs normally on the emulator as well. **npx react-native run-android** is sufficient for that.
+To evaluate the application, the **./gradlew build** command was utilized, and the resulting **app-release.apk** file was installed and tested on a mobile device. The app runs normally on the emulator as well. **npx react-native run-android** is sufficient for that.
 
 Installation
 ------------
